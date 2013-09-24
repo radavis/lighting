@@ -2611,3 +2611,7 @@ div.actions {
 .lighting-list a.on {
   background-color: #d0e01b;
   color: #333333; }
+
+ul.summary li {
+  text-align: center;
+  list-style: inside; }
