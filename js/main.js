@@ -19,7 +19,7 @@ $(document).ready(function() {
     var command = this.id.split('-');
     var selector = '.lighting-list';
 
-    if (command.length === 3) {
+    if (command.length === 3) {  // all-interior-on
       selector += ' .' + command[1];
     }
     selector += ' a';  // selector = '.lighting-list .interior a'
